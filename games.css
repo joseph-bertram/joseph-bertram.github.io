@@ -1,0 +1,25 @@
+/* Allows for a linked icon to appear unlinked */
+a.no-link-style {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+/* Space out the game covers */
+.nav-item img {
+  margin-right: 1rem;
+}
+/* Allows game covers to have fixed size */
+.fixed-size-img {
+  width: 100%;
+  height: 100px; /* Or any height you prefer */
+  object-fit: cover;
+  border-radius: 8px; /* Optional: for rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/* Allows to add an effect upon hovering on links */
+.nav-link:hover {
+  background-color: #ffffff22;
+  color: #ffc107;
+  border-radius: 5px;
+  text-decoration: none;
+}

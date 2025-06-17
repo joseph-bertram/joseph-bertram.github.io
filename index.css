@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* Style the main header */
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* Style the header paragraph */
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Style the navigation link */
+a.nav-link {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Allows to add an effect upon hovering on links */
+.nav-link:hover {
+  background-color: #ffffff22;
+  color: #ffc107;
+  border-radius: 5px;
+  text-decoration: none;
+}
+/* Allows for a linked icon to appear unlinked */
+a.no-link-style {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+/* Space out the socials icon */
+.nav-item svg {
+  margin-right: 1rem;
+}
